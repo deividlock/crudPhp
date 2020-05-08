@@ -26,8 +26,6 @@ _
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [PHP]
 * [PDO]
 * [MYSQL]
