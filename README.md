@@ -1,4 +1,4 @@
-# Título del Proyecto
+# CRUD Empleado con php PDO
 
 CRUD simple con php y PDO
 
