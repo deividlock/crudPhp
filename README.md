@@ -17,15 +17,14 @@ mysql
 configurar la base de datos
 
 ```
-    Actualizar el archivo datos-conexion.php
-    con las credenciales de su servidor php
+    Actualizar el archivo datos-conexion.php con las credenciales de su servidor mysql
     Crear una base de datos "crudphp"
     Ejecutar el archivo db.sql para crear la tabla de empleado
 ```
 Para ser ejecutado solo con PHP
 ```
     Clonar repositorio
-    cd ./crudPhp
+    cambiar a la carpeta del proyecto con: cd ./crudPhp
     Ejecutar php -S 127.0.0.1:8080
     Ingresar en el explorador localhost:8080
     Listo
@@ -33,7 +32,7 @@ Para ser ejecutado solo con PHP
 Para ser ejecutado con apache2
 ```
     Clonar repositorio
-    Copiar los archivos a la carpeta htdocs de apache
+    Copiar la carpeta del repositorio [crudPhp] a la carpeta htdocs de apache
     Ingresar en el explorador localhost/crudPhp
     Listo
 ```
