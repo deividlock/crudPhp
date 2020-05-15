@@ -6,4 +6,4 @@ $emp = new empleado();
 $emp->obtenerDatos();
 $emp->eliminarEmpleado();
 
-header('Location: /');
+header('Location: ./');

@@ -31,7 +31,7 @@ if($accion == 'index')
                     <br />
                     <h1> Listar Empleados </h1>
                     <br />
-                    <a href="/?accion=agregar" class="btn btn-primary">Agregar</a>
+                    <a href="./?accion=agregar" class="btn btn-primary">Agregar</a>
                     <br />
                     <table class="table">
                         <thead class="thead-dark">
@@ -54,8 +54,8 @@ if($accion == 'index')
                                 <td>'.$r -> apellido.'</td>
                                 <td>'.$r -> telefono.'</td>
                                 <td>
-                                <a class="btn btn-primary" href="/?accion=editar&id='.$r->id.'"> <i class="fa fa-pencil"></i> Editar</a>
-                                <a class="btn btn-danger" href="/?accion=eliminar&id='.$r->id.'"> <i class="fa fa-trash"></i> Eliminar</a>
+                                <a class="btn btn-primary" href="./?accion=editar&id='.$r->id.'"> <i class="fa fa-pencil"></i> Editar</a>
+                                <a class="btn btn-danger" href="./?accion=eliminar&id='.$r->id.'"> <i class="fa fa-trash"></i> Eliminar</a>
                                 </tr>';
                                 
                                 }
@@ -110,7 +110,7 @@ if($accion == 'agregar')
                         <input type="text" class="form-control" id="telefono" name="telefono" aria-describedby="telefonoHelp">
                         <small id="telefonoHelp" class="form-text text-muted">Número de contacto del empleado.</small>
                     </div>
-                        <a href="/" class="btn btn-danger">Volver</a>
+                        <a href="./" class="btn btn-danger">Volver</a>
                         <button type="submit" class="btn btn-primary">Guardar</button>
                     </form>
                 </div>
@@ -166,7 +166,7 @@ if($accion == 'editar')
                         <input type="text" class="form-control" id="telefono" name="telefono" aria-describedby="telefonoHelp" value="<?php echo $empleado[0]['telefono'] ?>">
                         <small id="telefonoHelp" class="form-text text-muted">Número de contacto del empleado.</small>
                     </div>
-                        <a href="/" class="btn btn-danger">Volver</a>
+                        <a href="./" class="btn btn-danger">Volver</a>
                         <button type="submit" class="btn btn-primary">Actualizar</button>
                     </form>
                 </div>
@@ -221,7 +221,7 @@ if($accion == 'eliminar')
                         <input type="text" class="form-control" id="telefono" name="telefono" aria-describedby="telefonoHelp" value="<?php echo $empleado[0]['telefono'] ?>" disabled>
                         <small id="telefonoHelp" class="form-text text-muted">Número de contacto del empleado.</small>
                     </div>
-                        <a href="/" class="btn btn-danger">Volver</a>
+                        <a href="./" class="btn btn-danger">Volver</a>
                         <button type="submit" class="btn btn-primary">Eliminar</button>
                     </form>
                 </div>

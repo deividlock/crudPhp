@@ -6,4 +6,4 @@ $emp = new empleado();
 $emp->obtenerDatos();
 $emp->actualizarEmpleado();
 
-header('Location: /');
+header('Location: ./');
